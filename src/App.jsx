@@ -328,7 +328,6 @@ const Navbar = () => {
               {link}
             </a>
           ))}
-        </div>
         <div className="flex items-center">
           <button
             onClick={handleThemeSwitch}
@@ -336,6 +335,7 @@ const Navbar = () => {
           >
             {theme === "dark" ? <IconSun /> : <IconMoon />}
           </button>
+        </div>
         </div>
       </div>
     </nav>
